@@ -6,7 +6,7 @@
         @input="inputHandler"
       ></textarea>
       <p>
-          {{ props.value }}
+          {{ value }}
       </p>
   </div>
 </template>
@@ -23,7 +23,6 @@ export default {
   },
   setup (props, context) {
     return {
-      props,
       inputHandler: useInputHandler(context),
       ...useIsFilled(props)
     }
