@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { useInputHandler, useIsFilled } from '../../utils/input'
+import { useInputHandler, useIsFilled } from './utils/input'
 
 export default {
   props: {
